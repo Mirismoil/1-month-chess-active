@@ -1,0 +1,152 @@
+/* ustoz koriniw ucun nimadirla ustida amaliyot qib kordim yaxwi ciqibti digan umidanam */
+
+*{
+    box-sizing:border-box ;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.link-project{
+    position: absolute;
+    bottom: 600px;
+    margin-left: 200px;
+    font-size: 34px;
+    color: rgb(197, 0, 181);
+    box-shadow:0 0 20px 1800px rgba(43, 255, 0, 0.199) ;
+    text-shadow: 0 0 4px rgb(218, 40, 40) ;
+    text-decoration: none;
+}
+.site-box{
+    display: block;
+    margin: 16px auto;
+ width: 500px ;
+ height:500px ;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 30px 1800px rgba(255, 174, 0, 0.493);
+}
+.header-p{
+    text-align: left;
+
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #292929;
+}
+.header-img{
+    position: absolute;
+left: 63%;
+right: 25%;
+top: 7%;
+bottom: 25%;
+}
+
+.header-box-hr{
+    margin-top: 20px;
+    opacity: .1;
+}
+.middle-box{
+    display: flex;
+}
+.middle-box-text{
+    width: 270px;
+    height: 48px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.01em;
+color: #292929;
+}
+.middle-img{
+    width: 60px;
+    margin-left: 12px;
+    padding-right: 30px;
+}
+
+.middle-money{
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.01em;
+color: #808080;
+}
+.middle-number{
+    position: absolute;
+    left: 30%;
+    right: 50px;
+    top: 25%;
+    bottom: 50% ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #808080;
+}
+.middle-box-money{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 31% ;
+ right: 18%;
+ left: 10%;
+ word-spacing: 5px;
+}
+.middle-money-span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FD9339;
+}
+.link-box{
+    margin-top: 114px;
+}
+.link-box1{
+    padding: 10px 41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #292929;
+    text-decoration: none;
+    background: #E6E6E6;
+border-radius: 5px;
+}
+.link-box2{
+    padding: 10px 41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+   color: #FFFFFF;
+   background: #FD9339;
+border-radius: 5px;
+}
+.box-specsial{
+    display: flex;
+align-items: center;
+justify-content:center;
+}
+.end-wrapper{
+    margin-top:10px ;
+ margin-left: 25px;
+}
+.h1{
+    display: flex;
+    align-items: center;
+justify-content:center;
+width: 440px;
+}
+.box-specsial-title{
+    margin: 41px auto;
+}

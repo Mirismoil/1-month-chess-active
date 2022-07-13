@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Chess hover</title>
+</head>
+
+<body>
+    <a class="link-project" href="#link">My Project</a>
+    <div class="site-box">
+        <div class="container">
+            <div class="header-box">
+                <p class="header-p">Добавлено в корзину</p>
+                <img class="header-img" src="./img/Group 279.svg" alt="this pictur is X" width="12" height="12">
+            </div>
+            <hr class="header-box-hr">
+            <div class="middle-box">
+                <div class="middle-img"> <img class="middle-box-img" src="./img/Rectangle 201.png"
+                        alt="this is site pictur"></div>
+
+                <p class="middle-box-text">Ароматобразующая закваска Danisсo Choozit Flav 43 LYO (5d)</p>
+                <div class="middle-box-number">
+                    <p class="middle-number">2 шт.</p>
+                </div>
+            </div>
+            <div class="middle-box-money">
+                <p class="middle-money"> <span class="middle-money-span">+99</span> бонусных рублей
+                    <img src="./img/question-mark-circle 7.svg " width="20" height="20" alt="this is pictur (?)">
+                </p>
+            </div>
+            <div class="link-box">
+                <a class="link-box1" href="#link">Продолжить покупки</a>
+                <a class="link-box2" href="#link">Просмотр корзины</a>
+            </div>
+        </div>
+
+        <div class="box-specsial">
+            <div class="container">
+                <div class="box-specsial-top">
+                    <p class="box-specsial-title">
+                        Специальные предложения
+                    </p>
+                </div>
+                <div class="h1">
+                    <div class="end-wrapper">
+                        <img src="./img/Rectangle 70.png" alt="this is rectangle">
+                        <div class="wrapper-text">
+                            <p class="wrapper-title">Паприка зеленая <br> сушенная</p>
+                        </div>
+                        <img class="wrapper-img" src="./img/960₽.png" alt="960$">
+                        <img class="wrapper-img" src="./img/1240₽.png" alt="1240">
+                        <div class="img-star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star2.png" alt="this is pictur Star">
+                        </div>
+                    </div>
+                    <div class="end-wrapper">
+                        <img src="./img/Rectangle 235.png" alt="this is rectangle">
+                        <div class="wrapper-text">
+                            <p class="wrapper-title">Мускатный орех <br> цельный</p>
+                        </div>
+                        <img class="wrapper-img" src="./img/120₽.png" alt="960$">
+                        <img class="wrapper-img" src="./img/340₽.png" alt="1240">
+                        <div class="img-star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star2.png" alt="this is pictur Star">
+                        </div>
+                    </div>
+                    <div class="end-wrapper">
+                        <img src="./img/Rectangle 236.png" alt="this is rectangle">
+                        <div class="wrapper-text">
+                            <p class="wrapper-title">Красный перец <br> молотый</p>
+                        </div>
+                        <img class="wrapper-img" src="./img/230₽.png" alt="960$">
+                        <img class="wrapper-img" src="./img/360₽.png" alt="1240">
+                        <div class="img-star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star 1.png" alt="this is pictur Star">
+                            <img src="./img/Star2.png" alt="this is pictur Star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var closeBtn = document.querySelector(' .header-img')
+        var aHref = document.querySelector('.link-project')
+        var sidebar = document.querySelector('.site-box')
+        closeBtn.onclick = () => sidebar.style.display = "none"
+        aHref.onclick = () => sidebar.style.display = "block"
+    </script>
+</body>
+
+</html>
